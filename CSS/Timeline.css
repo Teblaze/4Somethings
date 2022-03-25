@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	padding:0;
+	margin:0;
+	border:none;
+}
+	img {
+ max-height: 100%;
+ max-width: 150%;
+ object-fit: cover
+}
+.banner {
+ height:149px;
+ width: 1344px;
+}
+
+body {
+    padding: 38px;
+    font-family: sans-serif;
+	background-image:url("../Images/Vapourewasdfe.png");
+}
+
+.timeline {
+    white-space: nowrap;
+    overflow-x: scroll;
+    padding: 30px 0 10px 0;
+    position: relative;
+}
+
+.entry {
+    display: inline-block;
+    vertical-align: top;
+    background: #9145B6;
+    color: #4C3F91;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    border-top: 4px solid #06182E;
+    border-radius: 3px;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+.entry img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.entry:after {
+    content: '';
+    display: block;
+    background: #eee;
+    width: 7px;
+    height: 7px;
+    border-radius: 6px;
+    border: 3px solid #06182E;
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    margin-left: -6px;
+}
+
+.entry:before {
+    content: '';
+    display: block;
+    background: #06182E;
+    width: 5px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    margin-left: -2px;
+}
+
+.entry h1 {
+    color:#fff;
+    font-size:18px;
+    font-family:Georgia, serif;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.entry h2 {
+    letter-spacing:.2em;
+    margin-bottom:10px;
+    font-size:14px;
+}
+
+.bar {
+    height:4px;
+    background:#494949 ;
+    width:100%;
+    position:relative;
+    top:13px;
+    left:0;
+}
+#navigation {
+	width:auto;
+	word-spacing:75px;
+	border-top-width:2px;
+	border-top-style:solid;
+	text-align:right;
+	border-color:#524848;
+	padding-right:50px;
+	padding-bottom:30px;
+	background-image:url("../Images/Vapourewasdfe.png")
+}
+
+#navigation ul li {
+	list-style-type:none;
+	display:inline;
+}
+
+#navigation ul li a {
+	font-family:Gotham, "Helvetica Neue", sans-serif;
+	font-size:18px;
+	text-decoration:none;
+}
+#navigation ul li a:link {
+	color:#ADADAD;
+}
+#navigation ul li a:hover {
+	color:rgb(255, 100, 100);
+}
+#navigation ul li a:visited {
+	color:#FFF;
+}
+#banner {
+	width:auto;
+	height:80px;
+}
+#main {
+	padding-top:80px;
+}
+#smoke {
+	opacity:5%;
+	max-height:100px;
+	max-width:100px
+}
+
+#links {
+	padding-top: 30px
+}
+#pageName {
+	float: left;
+}
+
+a {
+  box-shadow: inset 0 0 0 0 #FFFFFF;
+  color: #EF3600;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0 #EF3600;
+  color: white;
+}
