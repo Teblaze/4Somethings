@@ -22,7 +22,7 @@ body {
 
 #navigation {
 	width:auto;
-	word-spacing:75px;
+	word-spacing:50px;
 	border-top-width:2px;
 	border-top-style:solid;
 	text-align:right;
@@ -32,7 +32,7 @@ body {
 	background-image:url("../Images/Vapourewasdfe.png")
 }
 #links {
-	padding-top: 30px
+	padding-top: 30px;
 }
 #pageName {
 	float:left
@@ -44,7 +44,7 @@ body {
 }
 
 #navigation ul li a {
-	font-family:Gotham, "Helvetica Neue", sans-serif;
+	font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif' ;
 	font-size:18px;
 	text-decoration:none;
 }
@@ -66,8 +66,14 @@ body {
 	height:400px;
 	outline-color: white;
 	outline: 1px solid #B958A5;
-	
 }
+#text {
+	text-align:center; 
+	font-family: Rockwell; 
+	color:rgba(187,187,187,1.00);
+	padding:30px;
+}
+
 #rightColumn {
 	float:left;
 	width:36%;
