@@ -22,7 +22,7 @@ body {
 
 #navigation {
 	width:auto;
-	word-spacing:50px;
+	word-spacing:40px;
 	border-top-width:2px;
 	border-top-style:solid;
 	text-align:right;
@@ -66,6 +66,11 @@ body {
 	height:400px;
 	outline-color: white;
 	outline: 1px solid #B958A5;
+	color: white;
+	font-family: Rockwell;
+	font-size: 16px;
+	text-align: center;
+	
 }
 #text {
 	text-align:center; 
@@ -109,4 +114,10 @@ a:hover {
 	opacity:5%;
 	max-height:100px;
 	max-width:100px
+}
+#texts{
+		text-align:center; 
+	font-family: Rockwell; 
+	color:rgba(187,187,187,1.00);
+	padding:50px;
 }
